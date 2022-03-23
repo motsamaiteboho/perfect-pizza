@@ -1,18 +1,17 @@
-body {
+/* body {
     background-color: #FFCA3A;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1 {
     text-align: center;
 }
-/* .pizza3{
+.pizza3{
     float: right;
     position: absolute;
     right: 15px; 
-}  */
+}  
 
 .pizza{
-    /*BOX-MODEL*/
     border: 1px solid gainsboro;
     padding: 1em;
     margin: 1em;
@@ -21,9 +20,6 @@ h1 {
     border-radius: 1em;
     height: 25em;
 
-    /*width:20em;
-    display: inline-block;
-    min-height: 30em;*/
 }
 
 .medium_pizza { 
@@ -37,7 +33,6 @@ h1 {
 }
 .large_pizza {
     background-color: #6A4C93;
-    /* position: relative; */
 }
 
 .small_pizza {
@@ -57,7 +52,6 @@ h1 {
     padding-right: 2em;
 }
 @media(min-width:960px){
-    /*apply this css if the page is wider than 960px*/
     .pizzas {
         display: flex;
     }
@@ -69,4 +63,10 @@ h1 {
         float: right;
         padding-right: 25em;
     }
-}
+} */
+
+.small img { width: 4em; }
+
+.medium img { width: 5em; }
+
+.large img { width: 7em; }
