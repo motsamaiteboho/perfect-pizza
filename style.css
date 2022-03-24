@@ -64,9 +64,63 @@ h1 {
         padding-right: 25em;
     }
 } */
-
+body {
+    background-color: #FFCA3A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+}
+h1 {
+    text-align: center;
+}
+.header{
+    background-color: #BAC926;
+}
 .small img { width: 4em; }
 
 .medium img { width: 5em; }
 
 .large img { width: 7em; }
+
+.pizza{
+    border: 1px solid gainsboro;
+    padding: 1em;
+    margin: 1em;
+    margin-left: 0;
+    margin-bottom: 0.5em;
+    border-radius: 1em;
+}
+.specials {
+    display: flex;
+    grid-row: 0;
+}
+.large {
+    background-color: #6A4C93;
+    flex-grow: 2;
+}
+
+.medium {
+    background-color: #1982C4;
+}
+
+.small {
+    background-color: #1982C4;
+    flex-grow: 2;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: #BAC926;
+    height: 10em;
+}
+.contact {
+    float: left;
+    margin: auto;
+    padding: auto;
+}
+.address {
+    float: right;
+    margin: auto;
+    padding: auto;
+}
